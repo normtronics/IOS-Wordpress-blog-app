@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeView.h"
 
 @implementation AppDelegate
 
@@ -20,7 +21,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    HomeView *home = [[HomeView alloc]init];
+    UINavigationController *controller = [[UINavigationController alloc]initWithRootViewController:home];
+    self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];
     return YES;
 }

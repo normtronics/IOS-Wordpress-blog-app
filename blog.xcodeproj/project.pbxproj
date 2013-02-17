@@ -21,6 +21,10 @@
 		2C99EBB816C2F74800A9A018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C99EB9916C2F74500A9A018 /* Foundation.framework */; };
 		2C99EBC016C2F74800A9A018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C99EBBE16C2F74800A9A018 /* InfoPlist.strings */; };
 		2C99EBC316C2F74900A9A018 /* blogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EBC216C2F74900A9A018 /* blogTests.m */; };
+		2C99EBCF16C2FBB900A9A018 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EBCD16C2FBB900A9A018 /* HomeView.m */; };
+		2C99EBD016C2FBB900A9A018 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C99EBCE16C2FBB900A9A018 /* HomeView.xib */; };
+		2C99EBD416C3018000A9A018 /* RSSfeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EBD216C3017F00A9A018 /* RSSfeed.m */; };
+		2C99EBD516C3018000A9A018 /* RSSfeed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C99EBD316C3018000A9A018 /* RSSfeed.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		2C99EBBF16C2F74800A9A018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C99EBC116C2F74900A9A018 /* blogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blogTests.h; sourceTree = "<group>"; };
 		2C99EBC216C2F74900A9A018 /* blogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blogTests.m; sourceTree = "<group>"; };
+		2C99EBCC16C2FBB900A9A018 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		2C99EBCD16C2FBB900A9A018 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		2C99EBCE16C2FBB900A9A018 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		2C99EBD116C3017F00A9A018 /* RSSfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSfeed.h; sourceTree = "<group>"; };
+		2C99EBD216C3017F00A9A018 /* RSSfeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSfeed.m; sourceTree = "<group>"; };
+		2C99EBD316C3018000A9A018 /* RSSfeed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSSfeed.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,12 @@
 				2C99EBA616C2F74600A9A018 /* AppDelegate.h */,
 				2C99EBA716C2F74600A9A018 /* AppDelegate.m */,
 				2C99EB9E16C2F74500A9A018 /* Supporting Files */,
+				2C99EBCC16C2FBB900A9A018 /* HomeView.h */,
+				2C99EBCD16C2FBB900A9A018 /* HomeView.m */,
+				2C99EBCE16C2FBB900A9A018 /* HomeView.xib */,
+				2C99EBD116C3017F00A9A018 /* RSSfeed.h */,
+				2C99EBD216C3017F00A9A018 /* RSSfeed.m */,
+				2C99EBD316C3018000A9A018 /* RSSfeed.xib */,
 			);
 			path = blog;
 			sourceTree = "<group>";
@@ -227,6 +243,8 @@
 				2C99EBAA16C2F74600A9A018 /* Default.png in Resources */,
 				2C99EBAC16C2F74600A9A018 /* Default@2x.png in Resources */,
 				2C99EBAE16C2F74600A9A018 /* Default-568h@2x.png in Resources */,
+				2C99EBD016C2FBB900A9A018 /* HomeView.xib in Resources */,
+				2C99EBD516C3018000A9A018 /* RSSfeed.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +281,8 @@
 			files = (
 				2C99EBA416C2F74600A9A018 /* main.m in Sources */,
 				2C99EBA816C2F74600A9A018 /* AppDelegate.m in Sources */,
+				2C99EBCF16C2FBB900A9A018 /* HomeView.m in Sources */,
+				2C99EBD416C3018000A9A018 /* RSSfeed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
